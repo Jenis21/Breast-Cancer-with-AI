@@ -2,7 +2,7 @@
 
 This project demonstrates the application of machine learning algorithms to diagnose breast cancer using the Wisconsin Diagnostic Breast Cancer dataset. The goal is to accurately classify tumors as malignant or benign based on various cellular features.
 
-The Jupyter notebook (`jenis (1).py`) performs a complete data analysis and modeling pipeline. It includes:
+The Jupyter notebook (`jenis.ipynb`) performs a complete data analysis and modeling pipeline. It includes:
 - Data loading and preprocessing
 - Exploratory data analysis and visualizations
 - Feature scaling and train-test splitting
@@ -10,7 +10,7 @@ The Jupyter notebook (`jenis (1).py`) performs a complete data analysis and mode
 - Accuracy comparison and confusion matrix visualization
 - Custom functions for real-time predictions using user input
 
-The Flask web app (`app.py`) enables user interaction via a web interface. It uses a pre-trained Logistic Regression model and scaler (saved as `.pkl` files) to:
+The Flask web app (`app.py`and other required files) enables user interaction via a web interface. It uses a pre-trained Logistic Regression model and scaler (saved as `.pkl` files) to:
 ![image](https://github.com/user-attachments/assets/cd42e67b-6c3d-440e-8dcb-a55e8fec0353)
 - Accept user input for all 30 features
 - Preprocess and scale the input
